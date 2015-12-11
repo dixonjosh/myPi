@@ -1,0 +1,15 @@
+
+
+<div class="jumbotron text-center" ng-controller="SettingsController as settingsCtrl">
+    <h2>Settings</h2>
+
+    <p>{{ tagline }}</p>
+    
+    <button ng-click="settingsCtrl.blink()">Blink!</button>
+    
+    
+    <button ng-click="console.log('test btn click');clicks = clicks + 1">btn test</button>
+    <div>
+        number of clicks: {{clicks}}
+    </div>
+</div>
